@@ -60,6 +60,7 @@ function generatePassword() {
     if (numbers === true) {
       selectedCharacters.push(generateRandom(numbers));
     }
+  }
     
     if(
       lowercase === false &&
